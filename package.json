@@ -1,0 +1,30 @@
+{
+  "name": "@bubka-bob/ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+     "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubka-bob/ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bubka-bob/ajs/issues"
+  },
+  "homepage": "https://github.com/Bubka-bob/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.101.2",
+    "webpack-cli": "^6.0.1"
+  },
+   "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}
